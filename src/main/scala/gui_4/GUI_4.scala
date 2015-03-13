@@ -96,7 +96,7 @@ abstract class View {
 }
 
 class TextView extends View {
-  val playerOrderDisplay = new TextArea(20, 1) { background = Color.yellow }
+  val playerOrderDisplay = new TextArea(20, 1) { background = Color.green }
 
   def displayPlayerOrder(players: String) {
     playerOrderDisplay.text = players + "\n"    
